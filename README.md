@@ -1,4 +1,6 @@
 # Body performance analysis
+multi class classification
+
 [Body performance analysis](https://www.kaggle.com/datasets/kukuroo3/body-performance-data?resource=download) dataset -  Kaggle.
 This is data that confirmed the grade of performance with age and some exercise performance data.
 
@@ -11,8 +13,9 @@ This is data that confirmed the grade of performance with age and some exercise 
 2. [Feature selection & regularization](feature_selection.ipynb)
    - remove unnecessary / collinear features
    - scale data
+   - search outliers
    - create baseline models
-3. [Best model selection](best_model_selection.ipynb)
+3. [Best model selection](model_selection.ipynb)
    - create pipelines
    - run optuna
    - choose best model
